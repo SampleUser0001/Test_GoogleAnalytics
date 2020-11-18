@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SND9MLC3NT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-SND9MLC3NT');
+    </script>
+
+    <title>videoタグに仕込む</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <video playsinline muted autoplay
+        onended="ga('send', 'event', 'Video', 'onended', 'Cat35693.mp4');galocation.href='./02_testPage.html'; ">
+        <source src="./Cat35693.mp4">
+    </video>
+    <br>
+    <a href="./02_testPage.html" onclick="onended="ga('send', 'event', 'Video', 'notend', 'Cat35693.mp4')">次のページ</a>
+</body>
+</html>
