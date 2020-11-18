@@ -9,7 +9,14 @@
       gtag('js', new Date());
     
       gtag('config', 'G-SND9MLC3NT');
-    </script>    
+    </script>
+    <script type="text/javascript">
+        function onclickEvent(){
+            alert('onclickEvent start');
+            ga('send', 'event', 'click', 'movie_not_finish');
+            alert('onclickEvent finish');
+        }
+    </script>
     
     <title>特定のリンクをクリックしたかを取得する</title>
     <meta charset="utf-8" />
@@ -20,7 +27,7 @@
     
     <a href="./02_testPage.html"
         id="movie_not_finish"
-        onclick="ga('send', 'event', 'click', 'movie_not_finish');alert('hogehoge');">検出する(カテゴリ：click)</a><br>
+        onclick="onclickEvent();">検出する(カテゴリ：click)</a><br>
 
     <a href="./02_testPage.html"
         id="movie_not_finish"
