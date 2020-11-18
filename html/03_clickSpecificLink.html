@@ -11,11 +11,6 @@
       gtag('config', 'G-SND9MLC3NT');
     </script>
     <script type="text/javascript">
-        function onclickEvent(){
-            alert('onclickEvent start');
-            ga('send', 'event', 'click', 'movie_not_finish');
-            alert('onclickEvent finish');
-        }
     </script>
     
     <title>特定のリンクをクリックしたかを取得する</title>
@@ -31,6 +26,6 @@
 
     <a href="./02_testPage.html"
         id="movie_not_finish"
-        onmouseover="ga('send', 'event', 'movie_not_finish', 'movie_not_finish');">検出する(カテゴリ：movie_not_finish)</a><br>
+        onmouseover="ga('send', 'event', 'movie_not_finish', 'movie_not_finish', 'hogehoge');">検出する(カテゴリ：movie_not_finish)</a><br>
 </body>
 </html>
