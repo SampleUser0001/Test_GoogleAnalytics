@@ -7,6 +7,7 @@ GoogleAnalyticsの動作確認を行う。
 - [02_testPage.html](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/02_testPage.html)
 - [03_clickSpecificLink](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/03_clickSpecificLink)
 - [04_video_tag](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/04_video_tag)
+- [05_redirecr](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/05_redirect)
 
 ## 参考
 
