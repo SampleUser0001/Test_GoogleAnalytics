@@ -4,10 +4,13 @@ GoogleAnalyticsの動作確認を行う。
 ## リンク
 
 - [01_toOtherPage.html](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/01_toOtherPage.html)
+    - 自ドメインへのリンクと他ドメインへのリンクの違いを見る。
 - [02_testPage.html](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/02_testPage.html)
+    - 同一サイト内の別ページとして扱う。
 - [03_clickSpecificLink](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/03_clickSpecificLink)
+    - イベントトラッキングをリンクに設定
 - [04_video_tag](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/04_video_tag)
-- [05_redirect](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/05_redirect)
+    - イベントトラッキングを動画とリンクに設定
 
 ## 参考
 
