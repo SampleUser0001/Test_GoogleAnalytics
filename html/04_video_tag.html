@@ -13,9 +13,11 @@
       onClick=gtag('event', 'click', {
           'event_category': 'Video',
           'event_label': 'video_not_complete'});
-      onended=gtag('event', 'ended', {
-          'event_category': 'Video',
-          'event_label': 'video_complete'});
+
+      // 動画終了まで待った場合の設定をしたかったが、再生開始時点で検出されてしまう。
+      // onended=gtag('event', 'ended', {
+      //    'event_category': 'Video',
+      //    'event_label': 'video_complete'});
 
     </script>
 
@@ -24,10 +26,7 @@
 </head>
 <body>
     <video playsinline muted autoplay
-        onended="gtag('event', 'ended', {
-                      'event_category': 'Video',
-                      'event_label': 'video_complete'});
-                 location.href='./02_testPage.html'; ">
+        onended="location.href='./02_testPage.html'; ">
         <source src="./Cat27739.mp4">
     </video>
     <br>

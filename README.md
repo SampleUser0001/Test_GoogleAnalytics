@@ -11,6 +11,8 @@ GoogleAnalyticsの動作確認を行う。
     - イベントトラッキングをリンクに設定
 - [04_video_tag](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/04_video_tag)
     - イベントトラッキングを動画とリンクに設定
+- [05_video_tag](https://sampleuser0001.github.io/Test_GoogleAnalytics/html/04_video_tag)
+    - リダイレクトを使って検出する（失敗）
 
 ## 参考
 
