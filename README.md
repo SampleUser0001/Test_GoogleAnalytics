@@ -12,6 +12,7 @@ GoogleAnalyticsの動作確認を行う。
 ## 参考
 
 - [Power Interactive Corp.:Googleアナリティクスで「ページ内でどのリンクがクリックされたか」を計測するための主要手法まとめ](https://www.powerweb.co.jp/column/ga-linkclick.html)
+- [GoogleAnalytics:サイトに analytics.js を追加する](https://developers.google.com/analytics/devguides/collection/analyticsjs?hl=ja)
 
 ## リポジトリ
 
